@@ -1,3 +1,14 @@
+# Stable Platform Status
+As we all know, Discord is a stable platform /j
+
+This watches https://status.discord.com for updates and posts them to your Discord webhook with the following information:
+* Title
+* Updates (with timestamps)
+* Impact color (none, minor, major, critical, maintenance)
+* Affected components
+
+It does a little HTML parsing in order to get info that the RSS feed endpoint doesn't provide, so it might break at some point.
+
 # How to use
 1. Install node.js
 2. Download and unzip the project
